@@ -3,19 +3,20 @@
 }
 
 .container {
-  height: 70vh;
+  height: 50vh;
   border: 5px solid #aaa;
 }
 
 .flex-parent{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .item{
-  width: 50px;
-  height: 50px;
+  /* width: 50px; */
+  /* height: 50px; */
   border: 5px solid gray;
   background-color: antiquewhite;
   font-size: 1.5em;
