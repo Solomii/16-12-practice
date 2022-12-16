@@ -9,10 +9,12 @@
 
 .flex-parent{
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-around;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  /* flex-flow: column wrap-reverse; */
+  flex-flow: row nowrap;
+  justify-content: center;
+  /* align-content: space-around;  */
   /* align-items: center;  */
 }
 
@@ -45,3 +47,18 @@
   margin-bottom: auto;
 } */
 
+.oreder1{
+  order: 1;
+}
+
+.oreder-1{
+  order: -1;
+}
+
+.oreder2{
+  order: 2;
+}
+
+.oreder3{
+  order: 3;
+}
